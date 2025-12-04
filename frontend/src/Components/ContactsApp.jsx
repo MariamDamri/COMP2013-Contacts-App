@@ -38,8 +38,8 @@ export default function ContactsApp() {
     setFormData({
       name: "",
       email: "",
-      address: "",
       phone: "",
+      address: "",
       image: "",
     });
   };
@@ -95,8 +95,8 @@ export default function ContactsApp() {
       console.log(contactToEdit);
       setFormData({
         name: contactToEdit.data.name,
-        phone: contactToEdit.data.contact.phone,
         email: contactToEdit.data.contact.email,
+        phone: contactToEdit.data.contact.phone,
         address: contactToEdit.data.contact.address,
         image: contactToEdit.data.image,
         _id: contactToEdit.data._id,
